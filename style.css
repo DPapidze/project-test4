@@ -1,0 +1,584 @@
+@font-face {
+    font-family: font1;
+    src: url(Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(Fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(fonts12/Inter-Thin.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+body {
+    margin: 0;
+}
+
+
+.d{
+    margin: auto;
+    margin-top: 12px;
+    width: 1320px;
+    height: 59px;
+    display: flex;
+    border:none;
+
+}
+
+.in1{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    background-image: url(sicn.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 7px center;
+    font-family: font1;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: -5px;
+    padding-left: 27px;
+}
+
+.d2{
+    width: 185px;
+    height: 39px;
+    border: none;
+    background-image: url(CORAL.png);
+    background-repeat: no-repeat;
+    background-size: 180px 34px;
+    background-position: center center;
+    font-size: 14px;
+    margin: auto;
+    margin-left: 335px;
+}
+
+.d3{
+    display: flex;
+    width: 230px;
+    height: 25px;
+    border: none;
+    font-size: 14px;
+    margin: auto;
+    margin-left: 377px;
+    background-color: #1e283200;
+    
+}
+a{
+    color: black;
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: font1;
+}
+
+.d4{
+    display: flex;
+    width: 105px;
+    height: 25px;
+    border: none;
+    font-size: 14px;
+    margin: auto;
+}
+
+.d5{
+    outline: none;
+    margin: auto;
+    width: 105px;
+    height: 25px;
+    border: none;
+    background-image: url(man.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: -5px center;
+    font-family: font1;
+    font-size: 16px;
+    margin-top: -1px;
+    margin-left: 4px;
+    padding-left: 28px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: font1;
+    text-decoration: none;
+}
+
+.p1{
+    font-family: font1;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: 3px;
+}
+
+.d6{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: none;
+    font-size: 14px;
+    margin: auto;
+}
+
+.d7{
+    margin: auto;
+    width: 105px;
+    height: 25px;
+    border: none;
+    background-image: url(BagBlck.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 1px center;
+    margin-top: -1px;
+    margin-left: 2px;
+    padding-left: 29px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: font1;
+    text-decoration: none;
+}
+
+
+.d8{
+    margin: auto;
+    width: 1320px;
+    height: 1px;
+    border: none;
+    background-color: #E3E3E3;
+}
+
+.d9{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 100%;
+    height: 24px;
+    
+}
+
+.d9 a{
+    color: black;
+    float: left;
+    padding: 5px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: font1;
+}
+
+.d91{
+    background-color: #1E28320D;
+}
+
+.d0{
+    max-width: 1920px;
+    width: 100%;
+    height: 847px;
+    background-image: url(flower-pattern.png);
+    background-repeat: no-repeat;
+    background-size: 100% 385px;
+    background-position: center center;
+}
+
+.d10{
+    margin: auto;
+    width: 1920px;
+    height: 700px;
+    background-image: url(PH1.png);
+    background-repeat: no-repeat;
+    background-color: #1E28320D;
+    background-size: 442px 562px;
+    background-position: 910px 50px;
+}
+
+.d11{
+    width: 686px;
+    height: 364px;
+    margin:auto;
+    margin-top: 135px;
+    margin-left: 138px;
+}
+
+.s1{
+    margin: auto;
+    font-size: 74px;
+    font-family: font2;
+}
+
+.s2{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: font1;
+}
+
+
+.but1{
+    margin: auto;
+    margin-top: 90px;
+    padding-left: 35px;
+    width: 223px;
+    height: 72px;
+    font-size: 29px;
+    font-family: font1;
+    background-image: url(BagWhte.png);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-size: 24px 24px;
+    background-position: 20px center;
+    color: #FFFFFF;
+}
+
+.f2{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    max-width: 1920px;
+    width: 100%;
+    height: 150px;
+    background-image: url(brand-5logo.png);
+    background-repeat: no-repeat;
+    background-size: 1320px 70px;
+    background-position: center 50px;
+}
+
+.f3{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    max-width: 1920px;
+    width: 100%;
+    height: 750px;
+    background-image: url(EXPLORE-POPULAR_STYLES.png);
+    background-repeat: no-repeat;
+    background-size: 1372px 648px;
+    background-position: center center;
+}
+.s3{
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 430px;
+    max-width: 1920px;
+    width: 100%;
+    height: 150px;
+    font-family: font1;
+    font-size: 30px;
+    overflow-y: hidden;
+}
+
+.sub1{
+    margin: auto;
+    margin-top: 35px;
+    max-width: 1333px;
+    width: 100%;
+    height: 32px;
+}
+
+.sub1 a{
+    float: left;
+    padding: 5px 32px;
+  
+    font-size: 16px;
+    font-family: font1;
+}
+
+a[href="all products"] {
+    color: #000000;
+}
+
+a[href="t-shirt"] {
+    color: #0000007c;
+}
+
+a[href="hoodies"] {
+    color: #0000007c;
+}
+
+a[href="jacket"] {
+    color: #0000007c;
+}
+
+.sub2{
+    width: 92px;
+    height: 32px;
+    display: flex;
+    background-color: #1E2832;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: font1;
+    padding-left: 28px;
+    margin-left: 1260px;
+    background-image: url(TETRI-SAMKUTXEDI.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 8px center;
+}
+
+.f4{
+    margin: auto;
+    margin-top: 45.5px;
+    margin-left: 0px;
+    max-width: 1920px;
+    width: 100%;
+    height: 985px;
+    background-image: url(orSubscribeToTheNewsletter.png);
+    background-repeat: no-repeat;
+    background-size: 1320px 980px;
+    background-position: 150px center;
+}
+
+.f5{
+    margin: auto;
+    margin-top: 45.5px;
+    margin-left: 0px;
+    max-width: 1920px;
+    width: 100%;
+    height: 777px;
+    background-image: url(black-red-woman.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 776px;
+    background-position: center center;
+}
+
+.f6{
+    width: 242px;
+    height: 73px;
+    margin-top: 611px;
+    margin-left: 57.5%;
+    background-color: #FFFFFF;
+    color: #1E2832;
+    font-family: Fonts;
+    font-size: 29px;
+    font-weight: 400px;
+}
+
+.s4{
+    margin: auto;
+    margin-top: 5px;
+    font-family: font1;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub3{
+    margin: auto;
+    margin-top: 35px;
+    max-width: 1333px;
+    width: 100%;
+    height: 32px;
+}
+
+.sub3 a{
+    float: left;
+    padding: 5px 32px;
+  
+    font-size: 16px;
+    font-family: font1;
+}
+
+a[href="all products"] {
+    color: #000000;
+}
+
+a[href="t-shirt"] {
+    color: #0000007c;
+}
+
+a[href="hoodies"] {
+    color: #0000007c;
+}
+
+a[href="jacket"] {
+    color: #0000007c;
+}
+
+.sub4{
+    width: 92px;
+    height: 32px;
+    display: flex;
+    background-color: #1E2832;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: font1;
+    padding-left: 17px;
+    padding-top: 4px;
+    margin-left: 1239px;
+}
+
+.f7{
+    margin: auto;
+    margin-top: 45.5px;
+    margin-left: 0px;
+    max-width: 1920px;
+    width: 100%;
+    height: 485px;
+    background-image: url(4CalianiKoleqcia.png);
+    background-repeat: no-repeat;
+    background-size: 1320px 478px;
+    background-position: 150px center;
+}
+.f8{
+    margin: auto;
+    max-width: 1920px;
+    width: 100%;
+    height: 754px;
+    background-color: #1E28320D;
+    margin-top: 100px;
+}
+
+.s5{
+    margin: auto;
+    margin-top: 5px;
+    font-family: font1;
+    font-size: 50px;
+    text-align: center;
+}
+
+.f9{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    max-width: 1920px;
+    width: 100%;
+    height: 205px;
+    background-image: url(bolo-baneri-gverdze.png);
+    background-repeat: no-repeat;
+    background-size: 1320px 200px;
+    background-position: center 0px;
+    gap: 24px;
+}
+
+.s6{
+    margin: auto;
+    margin-top: 5px;
+    font-family: font1;
+    font-size: 50px;
+    text-align: center;
+}
+
+.f10{
+    margin: auto;
+    width: 793px;
+    height: 43px;
+    font-family: font1;
+    font-size: 16px;
+}
+
+.in2{
+    width: 659px;
+    height: 32px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-family: font1;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: -5px;
+    padding-left: 10px;
+}
+
+.sub5{
+    margin-left: auto;
+    padding-left: 26px;
+    width: 101px;
+    height: 32px;
+    border: none;
+    background-color: #00000000;
+}
+
+.f101{
+    width: 648px;
+    height: 1px;
+    margin-left: -5px;
+    padding-left: 10px;
+    background-color: #000000;
+}
+
+.f102{
+    width: 91px;
+    height: 1px;
+    margin-left: 674px;
+    padding-left: 10px;
+    background-color: #000000;
+}
+
+.f11{
+    width: 397px;
+    height: 212px;
+}
+
+.f12{
+    width: 185px;
+    height: 39px;
+    background-image: url(CORAL.png);
+    background-repeat: no-repeat;
+    background-size: 180px 34px;
+    background-position: center center;
+}
+
+.f111{
+    margin: auto;
+    width: 397px;
+    height: 89px;
+    font-family: font1;
+    font-size: 16px;
+    color: black;
+}
+
+.net0{
+    display: flex;
+    width: 214px;
+    height: 32px;
+}
+
+.net1{
+    width: 50px;
+    height: 25px;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center center;
+}
+
+.net2{
+    width: 50px;
+    height: 25px;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center center;
+}
+
+.net3{
+    width: 50px;
+    height: 25px;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center center;
+}
+
+.net4{
+    width: 50px;
+    height: 25px;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
